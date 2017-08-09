@@ -28,19 +28,17 @@ import java.util.ArrayList;
 
         private void setupAnswers() {
 
-            String[] answerToAdd = {
-                    answers.add(answer)};
-
+                    answers.add("go for a run");
+                    answers.add("hava a nap");
             }
 
-         private void(String answer :answerToAdd) {
-                answers.add(answer);
+         public String getAnswer() {
 
-            }
+             return answers.get(0);
+         }
 
 
 
 
 }
-
 
